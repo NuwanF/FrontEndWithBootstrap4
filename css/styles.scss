@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$modal-heder-content: floralwhite;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -65,6 +66,21 @@ body{
             left: 0;
             min-height: 300px;
         }
+    }
+}
+
+.modal{
+    .modal-header{
+        background-color: $background-dark;        
+    }
+    .modal-title{
+        color: $modal-heder-content;
+    }
+    .close{
+        color: $modal-heder-content;
+    }
+    .modal-body{
+        background-color: #d1c5e8;
     }
 }
 
