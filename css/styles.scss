@@ -70,15 +70,15 @@ body{
 }
 
 .modal{
-    .modal-header{
-        background-color: $background-dark;        
-    }
-    .modal-title{
-        color: $modal-heder-content;
-    }
-    .close{
-        color: $modal-heder-content;
-    }
+    .modal-header{        
+        background-color: $background-dark;         
+        .modal-title{
+            color: $modal-heder-content;
+        }
+        .close{
+            color: $modal-heder-content;
+        }
+    }    
     .modal-body{
         background-color: #d1c5e8;
     }

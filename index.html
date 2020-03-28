@@ -362,12 +362,26 @@
     </script>
     <script>
         $("#btnLogin").click(function(){
-            $('#loginModal').modal('show');
+            //$('#loginModal').modal('show');
+
+            if($('#loginModal').hasClass('show')) {
+                $('#loginModal').modal('hide');
+            }
+            else {
+                $('#loginModal').modal('show');
+            }
         }); 
         $("#btnReserve").click(function(){
-            $('#reserveModal').modal('show')
+            //$('#reserveModal').modal('show')
+            if($('#reserveModal').hasClass('show')) {
+                $('#reserveModal').modal('hide');
+            }
+            else {
+                $('#reserveModal').modal('show');
+            }
         });    
     </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
